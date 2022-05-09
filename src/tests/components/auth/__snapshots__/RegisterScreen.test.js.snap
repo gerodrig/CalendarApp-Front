@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests in <LoginScreen /> component should render component correctly 1`] = `
+<div
+  className="container login-container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6 login-form-2"
+    >
+      <h3>
+        Register
+      </h3>
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            name="registerName"
+            onChange={[Function]}
+            placeholder="Name"
+            type="text"
+            value="Gerry"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control mt-3"
+            name="registerEmail"
+            onChange={[Function]}
+            placeholder="Email"
+            type="email"
+            value="gerry@outlook.com"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control mt-3"
+            name="registerPassword"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group mt-3"
+        >
+          <input
+            className="form-control"
+            name="registerPassword2"
+            onChange={[Function]}
+            placeholder="Re-enter password"
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group mt-3 d-flex justify-content-center"
+        >
+          <input
+            className="btnSubmit"
+            type="submit"
+            value="Create account"
+          />
+        </div>
+        <a
+          className="link mt-3 d-flex justify-content-center"
+          href="/login"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "#fff",
+            }
+          }
+        >
+          Login
+        </a>
+      </form>
+    </div>
+  </div>
+</div>
+`;
